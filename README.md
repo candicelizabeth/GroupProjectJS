@@ -8,3 +8,4 @@ Bianca
 Luciana
 Mick
 Jasmine
+Gebremeskel / GiGi
