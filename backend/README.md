@@ -1,5 +1,23 @@
 # README
 
+Restaurants
+- has_many meals
+- name
+- address
+- phone number
+- image
+- url link
+
+Meals
+- belongs_to restaurant
+- restaurant_id
+- name
+- price
+- description
+- image
+- allergies
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
