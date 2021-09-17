@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+restaurant1 = Restaurant.find_or_create_by( name: Faker::Restaurant.name, address: Faker::Address.full_address, phone_number: Faker::PhoneNumber.phone_number, image: 'https://source.unsplash.com/900x900/?restaurant', website: Faker::Internet.url)
+restaurant2 = Restaurant.find_or_create_by( name: Faker::Restaurant.name, address: Faker::Address.full_address, phone_number: Faker::PhoneNumber.phone_number, image: 'https://source.unsplash.com/900x900/?restaurant', website: Faker::Internet.url)
+restaurant3 = Restaurant.find_or_create_by( name: Faker::Restaurant.name, address: Faker::Address.full_address, phone_number: Faker::PhoneNumber.phone_number, image: 'https://source.unsplash.com/900x900/?restaurant', website: Faker::Internet.url)
